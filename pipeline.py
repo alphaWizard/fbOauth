@@ -16,5 +16,7 @@ def save_profile_picture(backend, user, response, details, *args, **kwargs):
                                  #  ContentFile(response.content))
         #profile.fbprofile_photo.save('{0}_social.jpg'.format(profile.first_name),
                                    #ContentFile(response.content))
+            
         profile.fbprofile_photo  = 'http://graph.facebook.com/{0}/picture?type=large'.format(response['id'])
+        #model has a urlfield accordingly
     profile.save()
