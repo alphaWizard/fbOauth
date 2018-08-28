@@ -151,8 +151,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-SOCIAL_AUTH_FACEBOOK_KEY = '371626159927872'  # App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = '41a2d360b6e4367471e6f45cc6e03c54'  # App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = 'your-app-id'  # App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = 'your-app-secret-key'  # App Secret
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [STATIC_DIR,]
